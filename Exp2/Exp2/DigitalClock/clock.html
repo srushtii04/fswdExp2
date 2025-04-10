@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+    <h1>JAVASCRIPT TIMINGS</h1>
+
+    <div id="all"></div>
+
+    <div class="d">
+        <p>Day and Date:</p>
+        <p id="dateDay"></p>
+    </div>
+    
+    <div class="t">
+        <p>Time:</p>
+        <p id="time"></p>
+    </div>
+    
+    <button id="stop" onclick="clearInterval(stopit)">Stop Time</button>
+
+    <script src="clock.js"></script>
+</body>
+</html>

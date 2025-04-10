@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(189, 216, 216);
+    text-align: center;
+}
+
+#img {
+    height: 300px;
+    width: 300px;
+    background-image: url('bulbOFF.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: 500px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
